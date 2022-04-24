@@ -14,3 +14,4 @@ const Game=require("./Models/Game");
 mongoose.connect('mongodb://localhost:27017/typeRacer',{useNewUrlParse:true,useUnifiedTopology:true},()=>{
     console.log('connected to the database');
 });
+//just a random commit
